@@ -1,0 +1,7 @@
+{
+  "body": "{\"firstName\":\"Shubham\",\"lastName\":\"jha\",\"emailId\":\"manish@xelpmoc.in\",\"password\":\"123456\"}",
+  "pathParameters": {
+    "userId": "302c8920-7d20-11e7-adb3-7d663c9eba02",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMzAyYzg5MjAtN2QyMC0xMWU3LWFkYjMtN2Q2NjNjOWViYTAyIiwiaWF0IjoxNTAyMjk2Mjg2fQ.JOcWvJniG56CexeSnYEjsbR4Kvif-s9zO-YEl4f29rQ"
+  }
+}
