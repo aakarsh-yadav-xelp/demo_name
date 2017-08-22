@@ -9,20 +9,18 @@ router.use(function timeLog (req, res, next) {
 })
 
 
-
 //********************userController #######################
-var userController		= require('../controllers/userController');
-router.use('/user',					userController.user 					);		//varsion
-router.use('/userHome',				userController.userHome 				);		//version
-router.use('/userEdit',				userController.userEdit 				);		//version
-router.use('/userProfile',			userController.userProfile 				);		//version
+var userController		= require('../controllers/userController.js');
+router.use('/userHome',				    userController.userHome 			      	);		//version
+router.post('/userData',			    userController.onBoardingJewel			  );		//version
+router.post('/OnboardingBank',		userController.onBoardingBank 		    );		//version
 
 
 
-// //*******************userMedia ############################
-// var userMediaController = require('../controller/userMediaController'); 
-// router.use('/uploadProfilePic',		userMediaController.userProfilePic 		); 		//version
-// router.use('/uploadCoverPic',		userMediaController.userCoverPic		);		//version
+// //*******************Auction ############################
+var auctionController   = require('../controllers/auction'); 
+router.post('/postAuction',		    auctionController.postAuction 		    ); 		//version
+router.use('/fetchAuction',  		auctionController.fetchAuction	    	);		//version
 // router.use('/uploadPost',			userMediaController.userPost			);		//version
 
 
