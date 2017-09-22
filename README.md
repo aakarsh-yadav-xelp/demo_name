@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-## This is the project for testing and maintainethe source code files on git hub.
-=======
+
+<h1>This is the project for testing and maintaine the source code files on git hub.
+</h1>
 # Demo_pro
 Project files
 
-Currently having two branches
->>>>>>> currentWorking
+
